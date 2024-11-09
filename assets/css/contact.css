@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#alligner{
+    margin-top: 90px;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 50%;
+    padding: 20px 20px;
+    background-color: #08ffce;
+    border-radius: 20px;
+    box-shadow: 10px 6px 12px 10px white;
+    height: 290px;
+}
+#icon{
+    border-radius: 10px;
+    box-shadow: 10px 6px 12px 10px white;
+}
+img{
+    width: 240px;
+    height: 290px;
+}
+#forms{
+color: black;
+    font-weight: bolder;
+    padding: 50px;
+}
+form input{
+padding: 12px;
+}
+form button{
+    display: block;
+    margin: auto;
+    background: #1b951b;
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #3cdeff;
+    border-collapse: collapse;
+    box-shadow: 8px 5px 10px 10px #1b951b;
+    border-style: none;
+}
+form button:hover{
+  box-shadow: 8px 5px 10px 10px #05ec05;
+    background: #05ec05;
+}

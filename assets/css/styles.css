@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+    background: #bfd1ec;
+}
+nav {
+    margin-top: 3px;
+    width: 100%;
+    background: #a6b5cc;
+  -webkit-box-shadow: -6px 28px 5px -14px rgba(66,43,9,1);
+-moz-box-shadow: -6px 28px 5px -14px rgba(66,43,9,1);
+box-shadow: -6px 28px 5px -14px rgba(66,43,9,1);
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    height: 60px;
+    align-items: center;
+}
+nav li{
+    padding: 0 24px;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+nav li img{
+    height: 50px;
+    width: 50px;
+}
+nav a{
+    background: #a6b5cc;
+text-decoration: none;
+    font-weight: bolder;
+    transition: color 400ms ,font-size 400ms;
+}
+a:hover{
+    background: #bfd1ec;
+    font-size: 1.8em;
+}
+#heading{
+  color: #e10909;
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-left: 400px;
+   align-content: center;
+
+}
+#content{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin: 20px 20px;
+}
+#content #welcome{
+    font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: italic;
+    font-size: 4em;
+  margin-left: 23px;
+    color: #0a53be;
+}
+#content #wels{
+    font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+      margin-left: 32px;
+    font-size: 3em;
+}
+.galley{
+    display: flex;
+    justify-content: space-around;
+}
+.galley img{
+    background: #27caca;
+    border-style: solid;
+    width: 24%;
+    height: 250px;
+     -webkit-box-shadow: -6px 28px 5px -14px rgba(66,43,9,1);
+-moz-box-shadow: -6px 28px 5px -14px rgba(66,43,9,1);
+    box-shadow: -6px 28px 5px -14px rgba(66,43,9,1);
+    transition: color 200ms,width 200ms;
+}
+img:hover{
+    width: 25%;
+    color: #e10909;
+}
+  .texts{
+      display: flex;
+      justify-content: space-around;
+    border-style: solid;
+      font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+     border-radius: 5px;
+     width: 90%;
+     background: #bfd1ec;
+      height: 200px;
+      align-items: center;
+      margin-left: 60px;
+     margin-top: 50px;
+      margin-bottom: 50px;
+ -webkit-box-shadow: -6px 28px 5px -14px rgba(66,43,9,1);
+-moz-box-shadow: -6px 28px 5px -14px rgba(66,43,9,1);
+}
